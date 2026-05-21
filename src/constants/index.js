@@ -123,7 +123,27 @@ export const footerLinks = [
             {
                 name:"Suggestions",
                 link:"https://www.hookbank.com.suggestions/",
-            }
+            },
+            {
+                name:"Blog",
+                link:"https://www.hookbank.com/blog/",
+            },
+            {
+                name:"Newsletters",
+                link:"https://www.hookbank.com/newsletters",
+            },
+        ],
+    },{
+        title:"Partner",
+        links:[
+            {
+                name:"Our partner",
+                link:"https://www.hookbank.com/our-partner/",
+            },
+            {
+                name:"Become a partner",
+                link:"https://www.hookbank.com/become-a-partner/",
+            },
         ],
     },
-]
+];
