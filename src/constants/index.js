@@ -55,6 +55,14 @@ export const feedback = [
         "Money makes your life easier. If you're lucky to have it, You're lucky.",
         name:"Steve Rogers",
         title:"Co-founder & Leader",
-        img:people02
+        img:people02,
+    },
+    {
+        id:"feedback-3",
+        content:
+        "It is usually people in the money business,finance,and international trade that are really rich.",
+        name:"Kenn Gallagher",
+        title:"CEO & Manager",
+        img:people03,
     }
 ]
