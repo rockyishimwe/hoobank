@@ -26,6 +26,35 @@ export const features = [
         "The best credit cards offer some tantalizing combinations of promotions and prizes",
     },
     {
-        id:"feature-2"
+        id:"feature-2",
+        icon:shield,
+        title:'100% Secured',
+        content:
+        "We take proactive steps make sure your information and transactions are secure.",
+    },
+    {
+        id:'feature-3',
+        icon:send,
+        title:'Balance Transfer',
+        content:
+        "A balance transfer credit card can save you a lot of money in interest charges.",
+    },
+];
+export const feedback = [
+    {
+        id:"feedback-1",
+        content:
+        "Money is only a tool.It will take you wherever you wish,but it will not replace you as the driver.",
+        name:"ISHIMWE Rocky",
+        title:"Founder & Leader",
+        img:people01,
+    },
+    {
+        id:"feedback-2",
+        content:
+        "Money makes your life easier. If you're lucky to have it, You're lucky.",
+        name:"Steve Rogers",
+        title:"Co-founder & Leader",
+        img:people02
     }
 ]
