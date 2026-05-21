@@ -64,5 +64,22 @@ export const feedback = [
         name:"Kenn Gallagher",
         title:"CEO & Manager",
         img:people03,
-    }
-]
+    },
+];
+export const stats = [
+    {
+        id:"stat-1",
+        title:"User Active",
+        value:"4000+",
+    },
+    {
+        id:"stat-2",
+        title:"Trusted by Company",
+        value:"500+",
+    },
+    {
+        id:"stat-3",
+        title:"Transaction",
+        value:"$350B+",
+    },
+];
