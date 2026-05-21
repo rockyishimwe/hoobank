@@ -83,3 +83,47 @@ export const stats = [
         value:"$350B+",
     },
 ];
+export const footerLinks = [
+    {
+        title:"Useful Links",
+        links:[
+            {
+                name:"Content",
+                link:"https://www.hookbak.com/content",
+            },
+            {
+                name:"How it Works",
+                link:"https://www.hookbank.com/how-it-works",
+            },
+            {
+                name:"Create",
+                link:"https://www.hookbank.com/create",
+            },
+            {
+                name:"Explore",
+                link:"https://www.hookbak.com.explore",
+            },
+            {
+                name:"Terms & Services",
+                link:"https://www.hookbank.com.terms-and-services",
+            },
+        ],
+    },
+    {
+        title:"Community",
+        links:[
+            {
+                name:"Help Center",
+                link:"https://www.hookbank.com/help-center",
+            },
+            {
+                name:"Partners",
+                link:"https://www.hookbank.com/partners",
+            },
+            {
+                name:"Suggestions",
+                link:"https://www.hookbank.com.suggestions/",
+            }
+        ],
+    },
+]
