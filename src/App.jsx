@@ -9,6 +9,11 @@ const App = () => {
           <Navbar/>
         </div>        
       </div>
+      <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Hero/>
+        </div>
+      </div>
     </div>
   )
 }
