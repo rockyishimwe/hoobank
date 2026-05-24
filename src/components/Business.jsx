@@ -28,6 +28,11 @@ const Business = ()=>(
       </p>
       <Button styles={`mt-10`}/>
     </div>
+    <div className = {`${layout.sectionImg} flex-col}`}>
+      {features.map((feature,index)=>(
+        <FeatureCard key={feature.id} {...feature} index={index}/>
+      ))}
+    </div>
   </section>
 );
 export default Business;
