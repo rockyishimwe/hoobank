@@ -13,6 +13,7 @@ const CardDeal = () => (
   benefits, lower transaction fees, and secure digital payments
   all designed to give you more control over your money.
       </p>
+      <Button styles={`mt-10`}/>
     </div>
   </section>
 );
