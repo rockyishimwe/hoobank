@@ -1,8 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #00040f;
+  --color-secondary: #00f6ff;
+  --color-dimWhite: rgba(255, 255, 255, 0.7);
+  --color-dimBlue: rgba(9, 151, 124, 0.1);
+
+  --font-poppins: "Poppins", sans-serif;
+
+  --breakpoint-xs: 480px;
+  --breakpoint-ss: 620px;
+  --breakpoint-sm: 768px;
+  --breakpoint-md: 1060px;
+  --breakpoint-lg: 1200px;
+  --breakpoint-xl: 1700px;
+}
 
 :root {
   --black-gradient: linear-gradient(
@@ -16,6 +30,12 @@
 
 * {
   scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #00040f;
+  font-family: "Poppins", sans-serif;
 }
 
 .text-gradient {
