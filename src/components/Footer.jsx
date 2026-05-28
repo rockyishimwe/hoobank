@@ -10,6 +10,8 @@ const Footer = () => (
           A new way to make the payments easy, reliable and secure.
         </p>
       </div>
+      <div className="flex01[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10"> 
+      </div>
     </div>
   </section>
 );
